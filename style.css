@@ -1,0 +1,81 @@
+@import "reset.css";
+
+body {
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding-right: 42px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 762px;
+    background-color: #f7f7f7;
+    align-items: center;
+    height: 900px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin: 20px 0px 70px 0px;
+    color: #0fc750;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 13px;
+    height: 49px;
+    width: 462px;
+    font-size: 17px;
+    padding-left: 16px;
+}
+
+button[type="submit"] {
+    height: 62px;
+    width: 483px;
+    font-size: 15px;
+    background-color: #0fc750;
+    color: #ffff;
+    border: none;
+    margin-bottom: 17px;
+}
+
+.sub {
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.border-right {
+    border-right: 1px #e4e4e5 solid;
+    padding-right: 5px;
+}
+
+
+.under-side {
+    width: 488px;
+    font-size: 12px;
+    padding-top: 21px;
+    border-top: 1px solid #e4e4e5;
+    display: flex;
+    justify-content: center;
+    color: #8e8e8e;
+}
+
+.under-right {
+    margin-right: 10px;
+}
